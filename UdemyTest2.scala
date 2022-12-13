@@ -4,6 +4,9 @@ def even(num : Int) : Boolean ={
 }
 even(1)
 even(2)
+def evenone(num : Int)= num%2==0
+evenone(1)
+evenone(2)
 
 // Question 2.
 def contains_even(nums : List[Int]) : Boolean = {
